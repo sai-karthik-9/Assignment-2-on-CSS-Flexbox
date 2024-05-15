@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap");
 
 :root {
-  text-color: white;
-  button-bg-color: #ffcc00;
-  nav-height: 50px;
-  font-family: "Asap", sans-serif;
+  --text-color: white;
+  --button-bg-color: #ffcc00;
+  --nav-height: 50px;
+  --font-family: "Asap", sans-serif;
 }
 
 *,
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  margin-top: 800px;
+  margin-top: 100px; 
   font-size: 50px;
 }
 
@@ -56,11 +56,11 @@ a {
 }
 
 .middle {
-  min-height: 4000px;
+  min-height: 500px; 
 }
 
 footer {
-  background-image: url('optimized-background.png');
+  background-image: url('optimized-background.png'); 
   background-size: cover;
   padding: 10% 0;
 }
